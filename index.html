@@ -11,9 +11,8 @@
 	<meta name="twitter:title" content="nina-la-photographe" />
 	<title>Nina Carducci</title>
 	<!-- <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css"> -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<link rel="stylesheet" href="./assets/style.css">
+	<link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
@@ -23,8 +22,6 @@
 	integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
 	crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script defer src="./assets/maugallery.js" async></script>
-	<script defer src="./assets/scripts.js" async></script>
 </head>
 <body>
 <div class="top-header">
@@ -49,13 +46,13 @@
 		</div>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash (3).webp" class="d-block w-100" alt="...">
+				<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash (4).webp" class="d-block w-100" alt="...">
 			</div>
 			<div class="carousel-item">
-				<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash(2).webp" class="d-block w-100" alt="...">
+				<img loading="lazy" src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash(2).webp" class="d-block w-100" alt="...">
 			</div>
 			<div class="carousel-item">
-				<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash(2).webp" class="d-block w-100" alt="...">
+				<img loading="lazy" src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash(2).webp" class="d-block w-100" alt="...">
 			</div>
 		</div>
 		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -70,12 +67,12 @@
 </div>
 <div id="about">
 	<div class="picture left">
-		<img src="./assets/images/nina150little.webp" loading="eager" alt="photo de Nina Carducci">
+		<img src="./assets/images/nina400big.webp" loading="eager" alt="photo de Nina Carducci">
 	</div>
 	<div id="about-me">
 		<h2 class="about-me__title">A propos de moi</h2>
 		<p class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</p>
-		<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
+		<p preload>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 	</div>
 </div>
@@ -83,15 +80,15 @@
 	<h3 class="title">Portfolio</h3>
 	<div class="container py-3">
 		<div class="gallery" style="display: none">
-			<img data-gallery-tag="Concert" alt="photo d'un concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash(2).webp"/>
-			<img data-gallery-tag="Entreprises" alt="photo de personne dans une entreprise" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash(2).webp"/>
-			<img data-gallery-tag="Entreprises" alt="photo de personne dans une entreprise" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash(2).webp"/>
-			<img data-gallery-tag="Mariages" alt="photo de mariage" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash(2).webp"/>
-			<img data-gallery-tag="Portrait" alt="voici un portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash(2).webp"/>
-			<img data-gallery-tag="Mariages" alt="photo de mariage" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash (2).webp"/>
-			<img data-gallery-tag="Portrait" alt="voici un portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash(2).webp"/>
-			<img data-gallery-tag="Concert" alt="photo d'un concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash(2).webp"/>
-			<img data-gallery-tag="Entreprises" alt="photo de personne dans une entreprise" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash(2).webp"/>
+			<img data-gallery-tag="Concert" loading="lazy" alt="photo d'un concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash(2).webp"/>
+			<img data-gallery-tag="Entreprises" loading="lazy" alt="photo de personne dans une entreprise" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash(2).webp"/>
+			<img data-gallery-tag="Entreprises" loading="lazy" alt="photo de personne dans une entreprise" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash(2).webp"/>
+			<img data-gallery-tag="Mariages" loading="lazy" alt="photo de mariage" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash(2).webp"/>
+			<img data-gallery-tag="Portrait" loading="lazy" alt="voici un portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash(2).webp"/>
+			<img data-gallery-tag="Mariages" loading="lazy" alt="photo de mariage" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash (2).webp"/>
+			<img data-gallery-tag="Portrait" loading="lazy" alt="voici un portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash(2).webp"/>
+			<img data-gallery-tag="Concert" loading="lazy" alt="photo d'un concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash(2).webp"/>
+			<img data-gallery-tag="Entreprises" loading="lazy" alt="photo de personne dans une entreprise" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash(2).webp"/>
 		</div>
 	</div>
 	<div class="quote">
@@ -167,5 +164,7 @@
 		</div>
 	</div>
 </div>
+<script src="./assets/maugallery.js" async></script>
+<script src="./assets/scripts.js" async></script>
 </body>
 </html>
