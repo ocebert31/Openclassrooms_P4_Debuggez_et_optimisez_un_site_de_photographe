@@ -27,7 +27,7 @@ Clone the repository:
 git clone repository_name
 
 Navigate to the project directory:
-cd inkstream
+cd ...
 
 Install dependencies:
 npm install
